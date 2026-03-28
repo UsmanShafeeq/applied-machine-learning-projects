@@ -1,79 +1,38 @@
-# applied-machine-learning-projects
-
 # Applied Machine Learning Projects
 
-This repository contains hands-on machine learning projects focused on data analysis, predictive modeling, and real-world problem solving using Python and modern ML techniques.
+This repository contains **hands-on machine learning projects** focused on **data analysis, predictive modeling, and real-world problem solving** using Python and modern ML techniques.
 
-## Featured Project: Top 1000 GitHub Repositories Analysis
+Each project is self-contained, including datasets, Jupyter notebooks, and visualizations for learning and reproducibility.
 
-Analyze the **Top 1000 GitHub repositories** to uncover patterns behind popularity, engagement, and programming trends.
+---
 
-### Objectives
+## 🚀 Projects Overview
 
-- Analyze stars and forks
-- Identify top programming languages
-- Understand what makes repositories popular
-- Extract actionable insights
+This repository hosts multiple applied ML projects, including (but not limited to):
 
-### Key Insights
+| Project Name | Description | Notebook Link |
+| ------------ | ----------- | ------------- |
+| GitHub Repository Analysis | Analyze popularity, engagement, and trends of top repositories | `notebooks/github-repo-analysis.ipynb` |
+| Smart Workout Recommendation | Predict optimal workout weights based on exercise data | `notebooks/smart-workout-recommendation.ipynb` |
+| Cancer Risk Analysis | Compare gender-specific cancer risk and mortality rates | `notebooks/cancer-risk-analysis.ipynb` |
+| Gestational Diabetes Prediction | Predict likelihood of gestational diabetes using patient features | `notebooks/gestational-diabetes-prediction.ipynb` |
+| [Add Your Project] | Brief description | Notebook link |
 
-- Successful repositories are driven by strong community engagement, popular programming ecosystems, and high usability.
-- Impact, usability, and community are as important as code quality.
+> You can add more projects by following the same format.
 
-### Main Topics Analyzed
+---
 
-Some of the most common topics among top repositories:
+## 📁 Repository Structure
 
-| Topic            | Count |
-| ---------------- | ----- |
-| python           | 405   |
-| machine-learning | 402   |
-| deep-learning    | 349   |
-| android          | 336   |
-| ios              | 258   |
-| hacktoberfest    | 250   |
-| data-science     | 224   |
-| devops           | 185   |
-| rust             | 181   |
-| blockchain       | 170   |
-| javascript       | 169   |
-| golang           | 162   |
-| go               | 155   |
-| pytorch          | 153   |
-| cybersecurity    | 146   |
-| ai               | 142   |
-| web-development  | 134   |
-| java             | 133   |
-| kubernetes       | 117   |
-| linux            | 116   |
+- `notebooks/` — Jupyter notebooks for all projects  
+- `datasets/` — Data files for all projects  
+- `images/` — Visualizations and figures  
+- `requirements.txt` — Python dependencies  
 
-## Repository Structure
+---
 
-- `notebooks/` — Jupyter notebooks for analysis and visualization
-- `datasets/` — Data files (add your datasets here)
-- `images/` — Visualizations and figures
-- `requirements.txt` — Python dependencies
+## ⚡ How to Run
 
-## How to Run
-
-1. Clone this repository
-2. Install dependencies:
+1. Clone the repository:  
    ```bash
-   pip install -r requirements.txt
-   ```
-3. Open the notebook in `notebooks/top-1000-github-repositories-analysis.ipynb`
-4. Run the cells to reproduce the analysis
-
-## Dependencies
-
-Main Python packages used:
-
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- plotly
-
-## License
-
-This repository is for educational and research purposes.
+   git clone https://github.com/usmanshafeeqdit/applied-machine-learning-projects.git
